@@ -1,8 +1,12 @@
 :root {
+  /* Paddings, margins and spaces */
   --global-width: 90vw;
   --global-max-width: 1170px;
   --top-intern-padding-lr: 2rem;
-  --top-intern-padding-top: 10px;
+  --top-intern-padding-top: 4px;
+  /* colors */
+  --top-bot-color: #1d282e;
+  --text-general-color: #f1f1f1;
 }
 
 * {
