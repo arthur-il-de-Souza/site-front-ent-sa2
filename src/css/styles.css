@@ -1,0 +1,38 @@
+/* top style */
+
+#top {
+  background-color: var(--top-bot-color);
+  height: 2rem;
+}
+
+.top-center {
+  width: var(--global-width);
+  max-width: var(--global-max-width);
+  margin: 0 auto;
+  display: flex;
+}
+
+.top-contact-mail {
+  width: calc(var(--global-width) / 2);
+}
+
+.top-contact-number {
+  width: calc(var(--global-width) / 2);
+}
+
+.top-contact-mail p {
+  padding-right: var(--top-intern-padding-lr);
+  float: right;
+}
+
+.top-contact-number p {
+  padding-left: var(--top-intern-padding-lr);
+  float: left;
+}
+
+#top p {
+  padding-top: var(--top-intern-padding-top);
+  color: var(--text-general-color);
+  font-size: 14px;
+  font-weight: 600;
+}
