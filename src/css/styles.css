@@ -36,3 +36,32 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+/* nav bar main */
+
+#navbar {
+  background-color: var(--header-main-color);
+  height: 6rem;
+}
+
+.nav-main-center {
+  /* background-color: aqua; */
+  width: var(--global-width);
+  max-width: var(--global-max-width);
+  margin: 0 auto;
+}
+
+.nav-logo {
+  background-color: brown;
+}
+
+.nav-img {
+  /* background-color: black; */
+  height: 6rem;
+  width: fit-content;
+}
+
+.nav-img img {
+  height: 6rem;
+  padding: 15px;
+}
