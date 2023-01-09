@@ -50,14 +50,14 @@
   max-width: var(--global-max-width);
   margin: 0 auto;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 /* logo init */
 
-.nav-logo {
-  /* background-color: brown; */
-}
+/* .nav-logo {
+  background-color: brown;
+} */
 
 .nav-img {
   /* background-color: black; */
@@ -100,3 +100,52 @@
 }
 
 /* search-bar end */
+
+/* cart init */
+
+.cart {
+  height: 6rem;
+  background-color: red;
+}
+
+.cart-icon {
+  display: flex;
+}
+
+.icon-text p {
+  margin-top: 4rem;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.icon-text-underline {
+  width: 10px;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
+  background-color: blue;
+  margin-top: 7.2px;
+}
+
+.login-section {
+  margin: auto 0;
+}
+
+.login-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-underline {
+  width: 7rem;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+/* cart end */
