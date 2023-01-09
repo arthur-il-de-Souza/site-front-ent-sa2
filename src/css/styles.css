@@ -49,10 +49,14 @@
   width: var(--global-width);
   max-width: var(--global-max-width);
   margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between; */
 }
 
+/* logo init */
+
 .nav-logo {
-  background-color: brown;
+  /* background-color: brown; */
 }
 
 .nav-img {
@@ -65,3 +69,34 @@
   height: 6rem;
   padding: 15px;
 }
+
+/* logo end */
+
+/* search-bar init */
+
+.nav-search-bar {
+  height: 6rem;
+}
+
+#search-bar-center {
+  display: flex;
+  margin-top: 1.45rem;
+}
+
+.search-input {
+  height: 3rem;
+  width: 22rem;
+  outline: none;
+  padding: 20px;
+  border: none;
+  border-radius: 40px 0 0 40px;
+}
+
+#search-icon {
+  width: 5rem;
+  outline: none;
+  border: none;
+  border-radius: 0 40px 40px 0;
+}
+
+/* search-bar end */
