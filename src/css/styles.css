@@ -146,6 +146,47 @@
   height: 2px;
   background-color: black;
   margin: 0 auto;
+  margin-top: 2px;
 }
 
 /* cart end */
+
+/* nav list init*/
+
+#nav-botton {
+  height: 2.5rem;
+  background-color: var(--header-sec-color);
+}
+
+.nav-botton-center {
+  width: var(--global-width);
+  max-width: var(--global-max-width);
+  margin: 0 auto;
+  /* background-color: coral; */
+  height: 2.5rem;
+}
+
+.nav-botton-section {
+  padding: 4.5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-botton-section a {
+  /* background-color: darkgoldenrod; */
+  padding: 5px 80px 5px 80px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.nav-botton-section a:hover {
+  /* background-color: darkgoldenrod; */
+  transition: 0.2s;
+  background-color: white;
+  color: var(--header-sec-color);
+}
+
+/* nav list end */

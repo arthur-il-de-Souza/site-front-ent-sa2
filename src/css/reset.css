@@ -7,12 +7,15 @@
   /* colors */
   --top-bot-color: #1d282e;
   --text-general-color: #f1f1f1;
-  --header-main-color: #5e82c4;
+  --header-main-color: #5085e6;
+  --header-sec-color: #9db4df;
 }
 
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
   font-size: 15px;
   box-sizing: border-box;
 }
