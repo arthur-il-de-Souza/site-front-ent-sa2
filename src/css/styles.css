@@ -40,7 +40,7 @@
 /* nav bar main */
 
 #navbar {
-  background-color: var(--header-main-color);
+  background-color: var(--main-color);
   height: calc(var(-nav-bar-main-height + --nav-bar-bot-height));
   margin-bottom: 40px;
 }
@@ -156,7 +156,7 @@
 
 #nav-botton {
   height: var(--nav-bar-bot-height);
-  background-color: var(--header-sec-color);
+  background-color: var(--sec-color);
 }
 
 .nav-botton-center {
@@ -187,7 +187,7 @@
   /* background-color: darkgoldenrod; */
   transition: 0.2s;
   background-color: white;
-  color: var(--header-sec-color);
+  color: var(--sec-color);
 }
 
 .nav-botton-line {
@@ -237,3 +237,90 @@
 }
 
 /* carousel end */
+
+/* footer init */
+
+#footer {
+  height: 20rem;
+  background-color: var(--sec-color);
+}
+
+.footer-center {
+  width: var(--global-width);
+  max-width: var(--global-max-width);
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+
+.fo-container {
+  margin-top: 30px;
+}
+
+.fo-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-main-black);
+}
+
+/* contact init */
+.contact {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-weight: 700;
+  padding-top: 5px;
+  color: var(--text-general-color);
+}
+
+.contact-bar {
+  height: 2.5rem;
+  padding-right: 1px;
+  padding-left: 5px;
+  border: 2px solid black;
+  border-radius: 0 25px 25px 0;
+}
+/* contact end */
+
+/* address init*/
+.local {
+  margin-bottom: 10px;
+}
+
+.local p {
+  text-align: center;
+  color: var(--text-general-color);
+}
+
+.fo-nav {
+  margin-bottom: 10px;
+}
+
+.fo-nav P {
+  text-decoration: underline;
+  text-align: center;
+  color: var(--text-general-color);
+}
+/* address end */
+
+.copy {
+  height: 1.5rem;
+  background-color: var(--top-bot-color);
+}
+
+.copy-center {
+  float: right;
+  padding-right: 10px;
+}
+
+.copy p {
+  text-transform: capitalize;
+  color: var(--text-general-color);
+}
+
+/* footer end */
