@@ -170,7 +170,7 @@
 .nav-botton-section {
   padding: 4.5px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .nav-botton-section a {
@@ -203,6 +203,7 @@
 
 #carousel {
   height: 21rem;
+  margin-bottom: 3rem;
 }
 
 .carousel-center {
@@ -237,6 +238,54 @@
 }
 
 /* carousel end */
+
+/* card-container init */
+
+#card-container {
+  /* background-color: cornsilk; */
+  margin-bottom: 1rem;
+}
+
+.container-center {
+  width: 70vw;
+  max-width: var(--global-max-width);
+  margin: 0 auto;
+}
+
+.line {
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+}
+
+.prod-card {
+  text-align: center;
+  background-color: var(--text-general-color);
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin: 0.5rem;
+}
+
+.card-content {
+  font-size: 13px;
+}
+
+.card-bold {
+  font-weight: 700;
+}
+
+.card-img {
+  width: 13vw;
+  padding: 2px;
+  border-radius: 15px;
+}
+
+.card-title {
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+/* card-container end */
 
 /* footer init */
 
