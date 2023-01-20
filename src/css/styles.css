@@ -202,39 +202,43 @@
 /* carousel init */
 
 #carousel {
-  height: 21rem;
-  margin-bottom: var(--margin-carousel-bot);
+  height: 100%;
+  margin-bottom: 4rem;
+  /* background-color: azure; */
 }
 
 .carousel-center {
   width: var(--global-width);
   max-width: var(--global-max-width);
   margin: 0 auto;
-  position: relative;
+  /* background-color: aqua; */
 }
 
 .ca-center {
   display: flex;
-  margin-left: 15%;
-  /* margin-right: -25%; */
+  justify-content: center;
 }
 
 .ca-image {
+  width: 100%;
+  /* object-fit: cover; */
 }
 
-.ca-list-2 {
-  margin-top: 12.7px;
+.ca-image:hover {
+  /* border: 1px solid white; */
 }
 
-.ca-image-container-1 {
-  /* margin-top: 9.4px; */
-  height: auto;
-  max-height: 20rem;
+.ca-container-1 {
+  width: 50%;
 }
-.ca-image-container-2 {
-  /* margin-top: 9.4px; */
-  height: auto;
-  max-height: 9rem;
+
+.ca-container-2 {
+  margin-top: 2.5%;
+  width: 20%;
+}
+
+.ca-link {
+  /* background-color: brown; */
 }
 
 /* carousel end */
@@ -242,48 +246,53 @@
 /* card-container init */
 
 #card-container {
-  /* background-color: cornsilk; */
-  margin-bottom: var(--margin-card-container-bot);
+  margin-bottom: 10rem;
+  /* background-color: blue; */
 }
 
 .container-center {
-  width: 70vw;
-  max-width: var(--global-max-width);
+  width: 60vw;
+  max-width: 702px;
   margin: 0 auto;
+  /* background-color: brown; */
 }
 
 .line {
+  width: 100%;
   display: flex;
-  /* background-color: red; */
-  justify-content: center;
+  /* padding: 10px; */
+  /* background-color: green; */
 }
 
 .prod-card {
-  text-align: center;
-  background-color: var(--text-general-color);
-  border-radius: 10px;
-  padding: 10px 5px;
-  margin: 0.5rem;
-}
-
-.card-content {
-  font-size: 13px;
-}
-
-.card-bold {
-  font-weight: 700;
+  background-color: cornsilk;
+  width: 25%;
+  /* margin: 0 auto; */
+  padding: 5px;
+  border-radius: 15px;
+  margin: 10px;
 }
 
 .card-img {
-  width: 13vw;
-  max-width: 150px;
-  padding: 2px;
-  border-radius: 15px;
+  width: 100%;
+  padding: 5px;
+  /* padding: 20px; */
+  border-radius: 19px;
 }
 
-.card-title {
-  text-transform: capitalize;
+.card-text {
+  font-size: 100%;
+  text-align: center;
+  color: var(--text-main-black);
+  overflow: hidden;
+}
+
+.card-link {
   text-decoration: underline;
+}
+
+.card-item {
+  /* background-color: aqua; */
 }
 
 /* card-container end */
