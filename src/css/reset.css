@@ -8,6 +8,9 @@
   --global-max-width: 1170px;
   --top-intern-padding-lr: 2rem;
   --top-intern-padding-top: 4px;
+  --margin-nav-bar-bot: 3.75rem;
+  --margin-carousel-bot: 3rem;
+  --margin-card-container-bot: 10rem;
   /* colors */
   --top-bot-color: #111336;
   --text-general-color: #f2f2f2;
