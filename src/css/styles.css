@@ -33,7 +33,7 @@
 #top p {
   padding-top: var(--top-intern-padding-top);
   color: var(--text-general-color);
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: 600;
 }
 
@@ -115,7 +115,7 @@
 
 .icon-text p {
   margin-top: 4rem;
-  font-size: 17px;
+  /* font-size: 17px; */
   font-weight: 700;
 }
 
@@ -178,7 +178,7 @@
   padding: 5px 80px 5px 80px;
   /* border-left: 1px solid white; */
   /* border-right: 1px solid white; */
-  font-size: 15px;
+  /* font-size: 15px; */
   font-weight: 700;
   color: white;
 }
@@ -281,7 +281,7 @@
 }
 
 .card-text {
-  font-size: 100%;
+  /* font-size: 100%; */
   text-align: center;
   color: var(--text-main-black);
   overflow: hidden;
@@ -298,10 +298,18 @@
 /* card-container end */
 
 #banner {
-  width: 100%;
   height: 200px;
-  background-color: red;
   margin-bottom: 12rem;
+}
+
+.banner-center {
+  width: 100vw;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.banner-game-mania {
+  width: 100%;
 }
 
 /* footer init */
@@ -326,7 +334,7 @@
 }
 
 .fo-title {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -338,18 +346,17 @@
   margin-bottom: 10px;
 }
 
-.contact p {
-  font-weight: 700;
-  padding-top: 5px;
-  color: var(--text-general-color);
+.contact-number {
+  background-color: #4fa792;
 }
-
-.contact-bar {
-  height: 2.5rem;
-  padding-right: 1px;
-  padding-left: 5px;
-  border: 2px solid black;
-  border-radius: 0 25px 25px 0;
+.contact-social-1 {
+  background-color: #b4507d;
+}
+.contact-social-2 {
+  background-color: #6d7297;
+}
+.contact-mail {
+  background-color: #948f84;
 }
 /* contact end */
 
