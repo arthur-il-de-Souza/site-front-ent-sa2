@@ -17,6 +17,11 @@
   --text-main-black: #050505;
   --main-color: #292c74;
   --sec-color: #797cbe;
+  /* fonts */
+  --font-title: "Anton", sans-serif;
+  --font-content: "Inter", sans-serif;
+  --font-main: "Roboto", sans-serif;
+  --font-espceial: "Share Tech", sans-serif;
 }
 
 * {
