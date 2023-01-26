@@ -325,12 +325,12 @@
   margin: 0 auto;
   height: 100%;
   display: flex;
-  justify-content: space-between;
   /* background-color: aqua; */
 }
 
 .fo-container {
   margin-top: 30px;
+  width: 100%;
 }
 
 .fo-title {
@@ -339,25 +339,85 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--text-main-black);
+  justify-content: center;
 }
 
 /* contact init */
 .contact {
+  display: flex;
   margin-bottom: 10px;
 }
 
-.contact-number {
+.text-content-font {
+  font-weight: 700;
+  font-size: 130%;
+  color: var(--text-general-color);
+}
+
+.contact-bar01 {
+  /* border */
+  border-width: 2px 0 2px 2px;
+  border-style: solid;
+  border-color: black;
+  /* padding */
+  padding: 5px 0 5px 0;
+  /* width */
+  width: 230px;
+}
+
+.contact-bar02 {
+  /* border */
+  border-width: 2px 2px 2px 0;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0 20px 20px 0;
+  /* padding */
+  /* padding: 5px 0 5px 0; */
+  width: 45px;
+}
+
+.contact-content {
+  margin-left: 5px;
+}
+
+.contact-icon {
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 210%;
+}
+
+/* contact number */
+.contact-number-text {
   background-color: #4fa792;
 }
-.contact-social-1 {
+.contact-number-icon {
+  background-color: #075e54;
+}
+
+/* contact instagram */
+.contact-insta-text {
   background-color: #b4507d;
 }
-.contact-social-2 {
+.contact-insta-icon {
+  background-color: #d90429;
+}
+
+/* contact facebook */
+.contact-face-text {
   background-color: #6d7297;
 }
-.contact-mail {
+.contact-face-icon {
+  background-color: #4267b3;
+}
+
+/* contact mail */
+.contact-mail-text {
   background-color: #948f84;
 }
+.contact-mail-icon {
+  background-color: #c7b408;
+}
+
 /* contact end */
 
 /* address init*/
