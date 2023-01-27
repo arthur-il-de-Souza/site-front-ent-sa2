@@ -33,8 +33,9 @@
 #top p {
   padding-top: var(--top-intern-padding-top);
   color: var(--text-general-color);
-  /* font-size: 14px; */
-  font-weight: 600;
+  font-family: var(--font-content);
+  font-size: 90%;
+  padding-top: 6px;
 }
 
 /* nav bar main */
@@ -55,10 +56,6 @@
 }
 
 /* logo init */
-
-/* .nav-logo {
-  background-color: brown;
-} */
 
 .nav-img {
   /* background-color: black; */
@@ -91,13 +88,31 @@
   padding: 20px;
   border: none;
   border-radius: 40px 0 0 40px;
+  font-family: var(--font-main);
+  font-size: 90%;
+  background-color: var(--text-general-color);
 }
 
 #search-icon {
+  height: 3rem;
   width: 5rem;
   outline: none;
   border: none;
   border-radius: 0 40px 40px 0;
+  background-color: var(--text-main-black);
+}
+
+#search-icon:hover {
+  cursor: pointer;
+}
+
+#search-icon:active {
+  background-color: rgba(5, 5, 5, 0.7);
+}
+
+.search-icon-font {
+  font-size: 150%;
+  color: var(--text-general-color);
 }
 
 /* search-bar end */
@@ -105,24 +120,31 @@
 /* cart init */
 
 .cart {
-  height: 6rem;
-  background-color: red;
+  height: 100%;
 }
 
 .cart-icon {
   display: flex;
 }
 
+.cart-icon-font {
+  font-size: 300%;
+  margin-top: 30px;
+}
+
+.cart-font {
+  color: var(--text-general-color);
+}
+
 .icon-text p {
-  margin-top: 4rem;
-  /* font-size: 17px; */
+  margin-top: 55px;
   font-weight: 700;
 }
 
 .icon-text-underline {
   width: 10px;
   height: 2px;
-  background-color: black;
+  background-color: var(--text-general-color);
   margin: 0 auto;
 }
 
@@ -139,13 +161,19 @@
 
 .login-section a {
   text-decoration: none;
-  color: black;
+}
+
+.login-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 80%;
+  color: var(--text-general-color);
 }
 
 .login-underline {
   width: 7rem;
   height: 2px;
-  background-color: black;
+  background-color: var(--text-general-color);
   margin: 0 auto;
   margin-top: 2px;
 }
@@ -179,8 +207,14 @@
   /* border-left: 1px solid white; */
   /* border-right: 1px solid white; */
   /* font-size: 15px; */
+}
+
+.nav-botton-text {
+  font-family: var(--font-main);
+  font-size: 89%;
   font-weight: 700;
-  color: white;
+  letter-spacing: 1px;
+  color: var(--text-general-color);
 }
 
 .nav-botton-section a:hover {
@@ -224,10 +258,6 @@
   /* object-fit: cover; */
 }
 
-.ca-image:hover {
-  /* border: 1px solid white; */
-}
-
 .ca-container-1 {
   width: 50%;
 }
@@ -235,10 +265,6 @@
 .ca-container-2 {
   margin-top: 2.5%;
   width: 20%;
-}
-
-.ca-link {
-  /* background-color: brown; */
 }
 
 /* carousel end */
@@ -283,16 +309,24 @@
 .card-text {
   /* font-size: 100%; */
   text-align: center;
+  font-size: 90%;
+  font-family: var(--font-main);
   color: var(--text-main-black);
-  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.price-text {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#product-price {
+  font-size: 95%;
+  /* color: red; */
 }
 
 .card-link {
   text-decoration: underline;
-}
-
-.card-item {
-  /* background-color: aqua; */
 }
 
 /* card-container end */
@@ -335,17 +369,27 @@
 
 .fo-title {
   /* font-size: 18px; */
-  font-weight: 700;
+  font-weight: 300;
+  font-size: 120%;
+  letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
   color: var(--text-main-black);
   justify-content: center;
+  font-family: var(--font-title);
 }
 
 /* contact init */
 .contact {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+}
+
+.contact-content,
+.address-content,
+.footer-content {
+  font-family: var(--font-content);
+  font-weight: 700;
 }
 
 .text-content-font {
@@ -382,7 +426,7 @@
 
 .contact-icon {
   margin-left: 5px;
-  margin-top: 3px;
+  margin-top: 2px;
   font-size: 210%;
 }
 
