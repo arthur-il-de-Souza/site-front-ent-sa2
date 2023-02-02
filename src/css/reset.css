@@ -3,7 +3,7 @@
   --top-height: 2rem;
   --nav-bar-main-height: 6rem;
   --nav-bar-bot-height: 2.5rem;
-  /* Paddings, margins and spaces */
+  /* Paddings, margins, spaces, times */
   --global-width: 80vw;
   --global-max-width: 1170px;
   --top-intern-padding-lr: 2rem;
@@ -11,6 +11,7 @@
   --margin-nav-bar-bot: 3.75rem;
   --margin-carousel-bot: 3rem;
   --margin-card-container-bot: 10rem;
+  --transition-time-general: 0.2s;
   /* colors */
   --top-bot-color: #111336;
   --text-general-color: #f2f2f2;

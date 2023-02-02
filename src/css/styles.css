@@ -455,11 +455,29 @@
   background-color: #075e54;
 }
 
+.contact-num {
+  transition: var(--transition-time-general);
+  transition-timing-function: linear;
+}
+
+.contact-num:hover {
+  background-color: #075e54;
+}
+
 /* contact instagram */
 .contact-insta-text {
   background-color: #b4507d;
 }
 .contact-insta-icon {
+  background-color: #d90429;
+}
+
+.contact-insta {
+  transition: var(--transition-time-general);
+  transition-timing-function: linear;
+}
+
+.contact-insta:hover {
   background-color: #d90429;
 }
 
@@ -471,11 +489,29 @@
   background-color: #4267b3;
 }
 
+.contact-face {
+  transition: var(--transition-time-general);
+  transition-timing-function: linear;
+}
+
+.contact-face:hover {
+  background-color: #4267b3;
+}
+
 /* contact mail */
 .contact-mail-text {
   background-color: #948f84;
 }
 .contact-mail-icon {
+  background-color: #c7b408;
+}
+
+.contact-mail {
+  transition: var(--transition-time-general);
+  transition-timing-function: linear;
+}
+
+.contact-mail:hover {
   background-color: #c7b408;
 }
 
@@ -519,7 +555,32 @@
 
 /* footer end */
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
+  #carousel {
+    margin-bottom: 5rem;
+  }
+
+  #card-container {
+    margin-bottom: 8rem;
+  }
+
+  #banner {
+    margin-bottom: 6rem;
+  }
+
+  .carousel-center {
+    width: 90vw;
+  }
+
+  .ca-container-1 {
+    width: 54%;
+  }
+
+  .ca-container-2 {
+    width: 22%;
+  }
+
+  /* navbar start */
   .nav-main-center {
     display: block;
     text-align: center;
@@ -542,15 +603,20 @@
 
   .nav-botton-text {
     font-size: 70%;
-    padding-top: 10px;
+    text-align: center;
+  }
+
+  .nav-botton-text-padding {
+    padding-top: 13px;
+  }
+
+  .fa-list-ul {
+    font-size: 0;
+    font-weight: none;
   }
 
   .nav-botton-section {
     justify-content: space-between;
-  }
-
-  .nav-botton-section a {
-    padding: 5px 0px 0px 0px;
   }
 
   .nav-botton-line {
@@ -559,4 +625,62 @@
     width: 0;
     background-color: none;
   }
+  /* navbar end */
+
+  /* prod start */
+
+  .container-center {
+    width: 90vw;
+  }
+
+  .prod-card {
+    padding: 4px;
+    border-radius: 10px;
+  }
+
+  .card-img {
+    border-radius: 15px;
+  }
+
+  .card-text {
+    font-size: 60%;
+    overflow: hidden;
+  }
+
+  /* prod end */
+
+  /* footer start */
+
+  .footer-center {
+    width: 90vw;
+  }
+
+  .fo-title {
+    font-size: 100%;
+  }
+
+  .text-content-font {
+    font-size: 90%;
+  }
+
+  .contact-bar01 {
+    border-width: 1px 0 1px 1px;
+    width: 160px;
+  }
+
+  .contact-bar02 {
+    border-width: 1px 1px 1px 0;
+    width: 35px;
+  }
+
+  .contact-icon {
+    margin-left: 6px;
+    margin-top: 3px;
+    font-size: 140%;
+  }
+
+  .local p {
+    font-size: 90%;
+  }
+  /* footer end */
 }
