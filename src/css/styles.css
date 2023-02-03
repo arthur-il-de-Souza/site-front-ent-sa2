@@ -308,12 +308,18 @@
 }
 
 .prod-card {
-  background-color: cornsilk;
+  background-color: var(--text-general-color);
   width: 25%;
   /* margin: 0 auto; */
   padding: 5px;
   border-radius: 15px;
   margin: 10px;
+  transition: 0.1s;
+}
+
+.prod-card:hover {
+  background-color: var(--text-emphasis);
+  transition-timing-function: linear;
 }
 
 .card-img {
@@ -677,6 +683,176 @@
   .contact-icon {
     margin-left: 6px;
     margin-top: 3px;
+    font-size: 140%;
+  }
+
+  .local p {
+    font-size: 80%;
+  }
+  /* footer end */
+}
+
+@media (max-width: 512px) {
+  #navbar {
+    margin-bottom: 3rem;
+  }
+
+  #search-bar-center {
+    margin-top: 2rem;
+  }
+
+  #carousel {
+    margin-bottom: 2rem;
+  }
+
+  #card-container {
+    margin-bottom: 4rem;
+  }
+
+  #banner {
+    margin-bottom: 0rem;
+  }
+
+  .carousel-center {
+    width: 100vw;
+  }
+
+  .ca-container-1 {
+    width: 65%;
+  }
+
+  .ca-container-2 {
+    width: 27%;
+  }
+
+  /* navbar start */
+  .nav-main-center {
+    display: block;
+    text-align: center;
+  }
+
+  .search-cart-union {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .login-text,
+  .login-underline {
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+  .nav-search-bar {
+    height: 100%;
+  }
+
+  .search-input {
+    width: 13rem;
+    font-size: 75%;
+  }
+
+  .nav-botton-text {
+    font-size: 62%;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  .nav-botton-text-padding {
+    padding-top: 13px;
+  }
+
+  .fa-list-ul {
+    font-size: 0;
+    font-weight: none;
+  }
+
+  .nav-botton-center {
+    width: 90vw;
+  }
+
+  .nav-botton-section {
+    justify-content: space-around;
+  }
+
+  .nav-botton-line {
+    margin: 0;
+    height: 0;
+    width: 0;
+    background-color: none;
+  }
+  /* navbar end */
+
+  /* prod start */
+
+  .container-center {
+    width: 80vw;
+  }
+
+  .prod-card {
+    padding: 1px;
+    border-radius: 8px;
+    margin: 6px;
+  }
+
+  .card-img {
+    border-radius: 10px;
+  }
+
+  .card-text {
+    font-size: 56%;
+    overflow: hidden;
+  }
+
+  /* prod end */
+
+  /* footer start */
+
+  .footer-center {
+    width: 90vw;
+  }
+
+  .fo-title {
+    font-size: 100%;
+  }
+
+  .text-content-font {
+    font-size: 0%;
+  }
+
+  .contact-bar01 {
+    border-width: 0;
+    width: 0px;
+  }
+
+  .contact-bar02 {
+    margin: 0 auto;
+    border-width: 1px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+  }
+
+  .contact-number-icon {
+    background-color: #4fa792;
+  }
+
+  .contact-insta-icon {
+    background-color: #b4507d;
+  }
+
+  .contact-face-icon {
+    background-color: #6d7297;
+  }
+
+  .contact-mail-icon {
+    background-color: #948f84;
+  }
+
+  .contact-icon {
+    margin-left: 9px;
+    margin-top: 8px;
     font-size: 140%;
   }
 
