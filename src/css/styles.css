@@ -856,6 +856,15 @@
     font-size: 140%;
   }
 
+  .fa-whatsapp {
+    margin-left: 10px;
+  }
+
+  .fa-instagram {
+    margin-left: 10px;
+    margin-top: 9px;
+  }
+
   .local p {
     font-size: 80%;
   }
