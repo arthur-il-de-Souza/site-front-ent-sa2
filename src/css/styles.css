@@ -1,3 +1,9 @@
+/* js inject */
+
+.text-dec-none {
+  text-decoration: none;
+}
+
 /* top style */
 
 #top {
@@ -142,6 +148,7 @@
 
 .cart-font {
   color: var(--text-general-color);
+  margin-bottom: 0px;
 }
 
 .login-section {
@@ -176,6 +183,7 @@
 }
 
 .login-text {
+  margin-bottom: 0px;
   font-family: var(--font-main);
   font-weight: 400;
   font-size: 80%;
@@ -277,6 +285,7 @@
 
 .ca-container-1 {
   width: 50%;
+  margin-right: -30px;
 }
 
 .ca-container-2 {
@@ -407,6 +416,7 @@
 .contact {
   display: flex;
   margin-bottom: 8px;
+  height: 2.9rem;
 }
 
 .contact-content,
@@ -546,18 +556,24 @@
 /* address end */
 
 .copy {
-  height: 1.5rem;
+  height: 2.8rem;
   background-color: var(--top-bot-color);
 }
 
 .copy-center {
   float: right;
-  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .copy p {
   text-transform: capitalize;
   color: var(--text-general-color);
+}
+
+.container {
+  background-color: red;
+  height: 20rem;
 }
 
 /* footer end */
@@ -670,6 +686,10 @@
     font-size: 90%;
   }
 
+  .contact {
+    height: 2rem;
+  }
+
   .contact-bar01 {
     border-width: 1px 0 1px 1px;
     width: 160px;
@@ -713,12 +733,17 @@
     margin-bottom: 0rem;
   }
 
+  .nav-img img {
+    margin-top: 13px;
+    padding: 19px;
+  }
+
   .carousel-center {
     width: 100vw;
   }
 
   .ca-container-1 {
-    width: 65%;
+    width: 60%;
   }
 
   .ca-container-2 {
@@ -749,8 +774,12 @@
   }
 
   .search-input {
-    width: 13rem;
-    font-size: 75%;
+    width: 12rem;
+    font-size: 70%;
+  }
+
+  .cart-icon-font {
+    font-size: 270%;
   }
 
   .nav-botton-text {
@@ -770,6 +799,10 @@
 
   .nav-botton-center {
     width: 90vw;
+  }
+
+  .nav-botton-container {
+    width: 25%;
   }
 
   .nav-botton-section {
@@ -814,11 +847,18 @@
   }
 
   .fo-title {
-    font-size: 100%;
+    height: 2.8rem;
+    font-size: 80%;
+    letter-spacing: 1.5px;
+    line-height: 1rem;
   }
 
   .text-content-font {
     font-size: 0%;
+  }
+
+  .contact {
+    margin-bottom: 20px;
   }
 
   .contact-bar01 {
@@ -866,7 +906,9 @@
   }
 
   .local p {
-    font-size: 80%;
+    letter-spacing: 0.1px;
+    line-height: 0.9rem;
+    font-size: 75%;
   }
   /* footer end */
 }
