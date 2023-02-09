@@ -32,6 +32,7 @@
     <title>Loja Game Mania</title>
   </head>
   <body>
+    <!-- top start -->
     <div id="top">
       <div class="top-center">
         <div class="top-contact-mail">
@@ -42,6 +43,8 @@
         </div>
       </div>
     </div>
+    <!-- top end -->
+    <!-- header start -->
     <header id="navbar">
       <nav class="nav-main">
         <div class="nav-main-center">
@@ -85,13 +88,13 @@
                   </a>
                 </a>
                 <div class="icon-text">
-                  <a href="login.html">
+                  <a href="login.html" class="text-decoration-none">
                     <p class="cart-font">0</p>
                   </a>
                   <div class="icon-text-underline"></div>
                 </div>
                 <div class="login-section">
-                  <a href="login.html">
+                  <a href="login.html" class="">
                     <p class="login-text">Faça o login</p>
                   </a>
                   <div class="login-underline"></div>
@@ -105,7 +108,7 @@
           <div class="nav-botton-center">
             <div class="nav-botton-section">
               <div class="nav-botton-container nav-botton-text-color">
-                <a href="#">
+                <a href="#" class="text-decoration-none">
                   <p
                     class="nav-botton-text nav-botton-text-color nav-botton-dep"
                   >
@@ -118,7 +121,7 @@
               </div>
               <div class="nav-botton-line"></div>
               <div class="nav-botton-container nav-botton-text-color">
-                <a href="">
+                <a href="" class="text-decoration-none">
                   <p
                     class="nav-botton-text nav-botton-text-color nav-botton-text-padding"
                   >
@@ -128,7 +131,7 @@
               </div>
               <div class="nav-botton-line"></div>
               <div class="nav-botton-container nav-botton-text-color">
-                <a href="">
+                <a href="" class="text-decoration-none">
                   <p
                     class="nav-botton-text nav-botton-text-color nav-botton-text-padding"
                   >
@@ -138,7 +141,7 @@
               </div>
               <div class="nav-botton-line"></div>
               <div class="nav-botton-container nav-botton-text-color">
-                <a href="">
+                <a href="" class="text-decoration-none">
                   <p
                     class="nav-botton-text nav-botton-text-color nav-botton-text-padding"
                   >
@@ -151,189 +154,50 @@
         </div>
       </nav>
     </header>
-    <div id="carousel">
-      <div class="carousel-center">
-        <div class="ca-center">
-          <div class="ca-container-1">
-            <ul class="ca-list-1">
-              <li>
-                <a href="#" class="ca-link">
-                  <img
-                    class="ca-image ca-image-container-1"
-                    src="src/image/pc-studio.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
+    <!-- header end -->
+    <!-- login start -->
+    <div id="login" class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col container-login m-5 p-5">
+          <form class="">
+            <h1 class="mb-4 login-title-font">Faça o Login</h1>
+            <label class="visually-hidden" for="inputEmail"
+              >Endereço de Email</label
+            >
+            <input
+              id="inputEmail"
+              class="form-control mb-2 login-input"
+              type="email"
+              placeholder="Endereço de Email"
+              required=""
+              autofocus=""
+            />
+            <label class="visually-hidden" for="inputPassword">Senha</label>
+            <input
+              id="inputPassword"
+              class="form-control mb-4 login-input"
+              type="password"
+              placeholder="Senha"
+              required=""
+            />
+          </form>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="lembre-se" />
+              <span class="login-content-font">Lembrar da senha</span>
+            </label>
           </div>
-          <div class="ca-container-2">
-            <ul class="ca-list-2">
-              <li>
-                <a href="#" class="ca-link">
-                  <img
-                    class="ca-image ca-image-container-2"
-                    src="src/image/notebook-control.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#" class="ca-link">
-                  <img
-                    class="ca-image ca-image-container-2"
-                    src="src/image/smartphone-touch.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
+          <button
+            class="btn btn-lg btn-primary btn-block login-button"
+            type="sumbit"
+          >
+            <span class="login-content-font">Entrar</span>
+          </button>
         </div>
       </div>
     </div>
-
-    <main id="card-container">
-      <div class="container-center">
-        <div class="line">
-          <div class="prod-card">
-            <a href="#">
-              <img
-                src="src/image/prod/prod-03.png"
-                alt="prod-01"
-                class="card-item card-img"
-              />
-            </a>
-            <a href="#" class="">
-              <p class="card-item card-text card-link">Controle Duashock 4</p>
-            </a>
-            <p class="card-item card-text price-text">
-              <span id="product-price">R$ 281,52</span> à vista
-            </p>
-          </div>
-          <div class="prod-card">
-            <a href="#">
-              <img
-                src="src/image/prod/prod-01.png"
-                alt="prod-01"
-                class="card-item card-img"
-              />
-            </a>
-            <a href="#" class="">
-              <p class="card-item card-text card-link">Controle Duashock 4</p>
-            </a>
-            <p class="card-item card-text price-text">
-              <span id="product-price">R$ 1.249,52</span> à vista
-            </p>
-          </div>
-          <div class="prod-card">
-            <a href="#">
-              <img
-                src="src/image/prod/prod-08.png"
-                alt="prod-01"
-                class="card-item card-img"
-              />
-            </a>
-            <a href="#" class="">
-              <p class="card-item card-text card-link">Controle Duashock 4</p>
-            </a>
-            <p class="card-item card-text price-text">
-              <span id="product-price">R$ 456,87</span> à vista
-            </p>
-          </div>
-          <div class="prod-card">
-            <a href="#">
-              <img
-                src="src/image/prod/prod-11.png"
-                alt="prod-01"
-                class="card-item card-img"
-              />
-            </a>
-            <a href="#" class="">
-              <p class="card-item card-text card-link">Controle Duashock 4</p>
-            </a>
-            <p class="card-item card-text price-text">
-              <span id="product-price">R$ 1.499,99</span> à vista
-            </p>
-          </div>
-        </div>
-        <div class="line">
-          <div class="prod-card">
-            <a href="#">
-              <img
-                src="src/image/prod/prod-04.png"
-                alt="prod-01"
-                class="card-item card-img"
-              />
-            </a>
-            <a href="#" class="">
-              <p class="card-item card-text card-link">Controle Duashock 4</p>
-            </a>
-            <p class="card-item card-text price-text">
-              <span id="product-price">R$ 25.499,98</span> à vista
-            </p>
-          </div>
-          <div class="prod-card">
-            <a href="#">
-              <img
-                src="src/image/prod/prod-10.png"
-                alt="prod-01"
-                class="card-item card-img"
-              />
-            </a>
-            <a href="#" class="">
-              <p class="card-item card-text card-link">Controle Duashock 4</p>
-            </a>
-            <p class="card-item card-text price-text">
-              <span id="product-price">R$ 1.249,90</span> à vista
-            </p>
-          </div>
-          <div class="prod-card">
-            <a href="#">
-              <img
-                src="src/image/prod/prod-09.png"
-                alt="prod-01"
-                class="card-item card-img"
-              />
-            </a>
-            <a href="#" class="">
-              <p class="card-item card-text card-link">Controle Duashock 4</p>
-            </a>
-            <p class="card-item card-text price-text">
-              <span id="product-price">R$ 12.249,90</span> à vista
-            </p>
-          </div>
-          <div class="prod-card">
-            <a href="#">
-              <img
-                src="src/image/prod/prod-06.png"
-                alt="prod-01"
-                class="card-item card-img"
-              />
-            </a>
-            <a href="#" class="">
-              <p class="card-item card-text card-link">Controle Duashock 4</p>
-            </a>
-            <p class="card-item card-text price-text">
-              <span id="product-price">R$ 12.249,90</span> à vista
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <div id="banner">
-      <div class="banner-center">
-        <div class="banner-image">
-          <img
-            src="src/image/banner.png"
-            alt="Banner Loja Game Mania"
-            class="banner-game-mania"
-          />
-        </div>
-      </div>
-    </div>
-
+    <!-- login end -->
+    <!-- footer start -->
     <footer id="footer">
       <div class="footer-center">
         <div class="fo-container fo-container-1">
@@ -341,7 +205,7 @@
           <!-- start contact number -->
           <div class="contact">
             <div class="contact-bar01 contact-number-text contact-num">
-              <a href="">
+              <a href="" class="text-decoration-none">
                 <p
                   class="text-content-font contact-number-content contact-content"
                 >
@@ -361,7 +225,7 @@
           <!-- start contact instagram -->
           <div class="contact">
             <div class="contact-bar01 contact-insta-text contact-insta">
-              <a href="">
+              <a href="" class="text-decoration-none">
                 <p
                   class="text-content-font contact-insta-content contact-content"
                 >
@@ -381,7 +245,7 @@
           <!-- start contact facebook -->
           <div class="contact">
             <div class="contact-bar01 contact-face-text contact-face">
-              <a href="">
+              <a href="" class="text-decoration-none">
                 <p
                   class="text-content-font contact-face-content contact-content"
                 >
@@ -401,7 +265,7 @@
           <!-- start contact mail -->
           <div class="contact">
             <div class="contact-bar01 contact-mail-text contact-mail">
-              <a href="">
+              <a href="" class="text-decoration-none">
                 <p
                   class="text-content-font contact-mail-content contact-content"
                 >
@@ -422,20 +286,12 @@
         <div class="fo-container fo-container-2">
           <p class="local local-title fo-title">venha nos conhecer de perto</p>
           <div class="local local-address address-content">
-            <p>
-              Rua José Romeiro Pereira, 5XXX
-              <br />
-              Jundiaí - SP
-              <br />
-              CEP:13021-XXX
-            </p>
+            <p>Rua José Romeiro Pereira, 5XXX</p>
+            <p>Jundiaí - SP CEP:13021-XXX</p>
           </div>
           <div class="local local-hour address-content">
-            <p>
-              Segunda a Sexta 8h às 19
-              <br />
-              Sábado 10h às 16h
-            </p>
+            <p>Segunda a Sexta 8h às 19h</p>
+            <p>Sábado 10h às 16h</p>
           </div>
         </div>
         <div class="fo-container fo-container-3">
@@ -463,6 +319,7 @@
         </div>
       </div>
     </footer>
+    <!-- footer end -->
   </body>
   <script
     type="text/javascript"
