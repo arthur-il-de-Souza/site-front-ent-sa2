@@ -152,47 +152,81 @@
       </nav>
     </header>
     <div id="carousel">
-      <div class="carousel-center">
-        <div class="ca-center">
-          <div class="ca-container-1">
-            <ul class="ca-list-1">
-              <li>
-                <a href="#" class="ca-link">
-                  <img
-                    class="ca-image ca-image-container-1"
-                    src="src/image/pc-studio.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
+      <div class="section-carousel">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
-          <div class="ca-container-2">
-            <ul class="ca-list-2">
-              <li>
-                <a href="#" class="ca-link">
-                  <img
-                    class="ca-image ca-image-container-2"
-                    src="src/image/notebook-control.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#" class="ca-link">
-                  <img
-                    class="ca-image ca-image-container-2"
-                    src="src/image/smartphone-touch.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
+
+          <div class="carousel-inner" data-bs-touch>
+            <div class="carousel-item active">
+              <a href="#">
+                <img
+                  src="src/image/pc-studio.png"
+                  class="d-block w-100"
+                  alt="Oferta em destaque."
+                />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="#">
+                <img
+                  src="src/image/notebook-control.png"
+                  class="d-block w-100"
+                  alt="Oferta em destaque."
+                />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="#">
+                <img
+                  src="src/image/smartphone-touch.png"
+                  class="d-block w-100"
+                  alt="Oferta em destaque."
+                />
+              </a>
+            </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
-
     <main id="card-container">
       <div class="container-center">
         <div class="line">
