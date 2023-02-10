@@ -258,6 +258,11 @@
   /* background-color: azure; */
 }
 
+#carouselExample {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .carousel-center {
   width: var(--global-width);
   max-width: var(--global-max-width);
